@@ -10,7 +10,7 @@ add-apt-repository ppa:kubuntu-ppa/backports
 apt install pika-sources.deb --yes --option Acquire::Retries=5 --option Acquire::http::Timeout=100 --option Dpkg::Options::="--force-confnew"
 
 # Clone Upstream
-git clone https://github.com/JakeStanger/ironbar.git
+git clone --recurse-submodules https://github.com/JakeStanger/ironbar.git
 cd ironbar
 git checkout v0.12.0
 cp -rvf ../debian ./
