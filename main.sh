@@ -14,6 +14,7 @@ git clone https://github.com/JakeStanger/ironbar.git
 cd ironbar
 git checkout v0.12.0
 cp -rvf ../debian ./
+cp -vf ../Makefile ./Makefile
 
 # Get build deps
 ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
