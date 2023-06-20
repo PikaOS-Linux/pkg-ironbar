@@ -5,7 +5,7 @@ DEBIAN_FRONTEND=noninteractive
 # Clone Upstream
 git clone --recurse-submodules https://github.com/JakeStanger/ironbar.git
 cd ironbar
-git checkout v0.12.1
+git checkout main
 cp -rvf ../debian ./
 cp -vf ../Makefile ./Makefile
 
