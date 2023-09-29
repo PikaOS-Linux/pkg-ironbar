@@ -1,3 +1,9 @@
+ironbar (0.13.0-99pika1) pikauwu; urgency=medium
+
+  * Upstream release
+
+ -- ferreo <harderthanfire@gmail.com>  Wed, 18 Jan 2023 21:48:14 +0000
+
 ironbar (0.12.1-99pika1) lunar; urgency=medium
 
   * Upstream release
